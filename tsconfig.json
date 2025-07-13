@@ -1,8 +1,15 @@
 {
-  // This file is not used in compilation. It is here just for a nice editor experience.
-  "extends": "@docusaurus/tsconfig",
+  // 👉 Not used in actual TS compilation, only for editor IntelliSense
+  "extends": "@docusaurus/tsconfig", // inherits from Docusaurus defaults
+
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": "." // enables path resolution relative to the project root
   },
-  "exclude": [".docusaurus", "build"]
+
+  "exclude": [
+    ".docusaurus", // ignore generated files
+    "build"        // ignore build output
+  ]
 }
+// This file is used to configure TypeScript for Docusaurus projects.
+// It extends the default Docusaurus TypeScript configuration and allows for customizations.  
