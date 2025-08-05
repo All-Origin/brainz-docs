@@ -1,3 +1,6 @@
 [submodule "docs/brainz-knowledge"]
 	path = docs/brainz-knowledge
 	url = https://github.com/All-Origin/Knowledge-Base.git
+[submodule "docs/junior-knowledge"]
+	path = docs/junior-knowledge
+	url = https://github.com/All-Origin/Knowledge-Base.git
