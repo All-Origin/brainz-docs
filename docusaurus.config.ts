@@ -8,7 +8,7 @@ const config: Config = {
   tagline: 'All my project documentation',
   url: 'https://all-origin.github.io',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+
   organizationName: 'All-Origin',
   projectName: 'junoir-docs',
 
@@ -45,7 +45,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      copyright: `© ${new Date().getFullYear()} ALL ORIGIN. BrainZ.`,
+      copyright: `© ${new Date().getFullYear()} ALL-Origin, Junior Ai.`,
     },
   },
 };
