@@ -4,20 +4,20 @@ import type { Config } from '@docusaurus/types';
 import path from 'path';
 
 const config: Config = {
-  title: 'Brainz Knowledgebase',
+  title: 'Junoir Knowledgebase',
   tagline: 'All my project documentation',
   url: 'https://all-origin.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'All-Origin',
-  projectName: 'brainz-docs',
+  projectName: 'junoir-docs',
 
   presets: [
     [
       'classic',
       {
         docs: {
-          path: 'docs/brainz-knowledge',
+          path: 'docs/junior-knowledge',
           routeBasePath: '/',
           sidebarPath: path.resolve(__dirname, 'sidebars.ts'),
         },
@@ -28,7 +28,7 @@ const config: Config = {
 
   themeConfig: {
     navbar: {
-      title: 'Brainz Docs',
+      title: 'Junior Docs',
       items: [
         {
           type: 'docSidebar',
@@ -37,7 +37,7 @@ const config: Config = {
           label: 'Knowledge Base',
         },
         {
-          href: 'https://github.com/All-Origin/brainz-docs',
+          href: 'https://github.com/All-Origin/junior-docs',
           label: 'GitHub',
           position: 'right',
         },
